@@ -1,0 +1,16 @@
+project: dcps_java {
+  idlflags += -Wb,stub_export_include=HelloWorld_Export.h \
+    -Wb,stub_export_macro=HelloWorld_Export
+  dcps_ts_flags += -Wb,export_macro=HelloWorld_Export
+  idl2jniflags += -Wb,stub_export_include=HelloWorld_Export.h \
+    -Wb,stub_export_macro=HelloWorld_Export
+  dynamicflags += HELLOWORLD_BUILD_DLL
+
+  specific {
+    jarname = DDS_HelloWorld_types
+  }
+
+ TypeSupport_Files {
+    HelloWorld.idl
+  }
+}

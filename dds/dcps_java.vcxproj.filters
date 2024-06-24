@@ -1,0 +1,3058 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Java Files">
+      <UniqueIdentifier>{0490FCE5-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <Extensions>java</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Idl2jni Files">
+      <UniqueIdentifier>{8CFFD56F-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Javah Files">
+      <UniqueIdentifier>{7D909643-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Idl2jni And Typesupportjavaonly Files">
+      <UniqueIdentifier>{848A741C-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{502A2050-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BitsExtJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BitsJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DDS_QoS_jni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsConditionSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsCoreJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsCoreTypeSupportJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsDataReaderSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsDomainJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsGuidJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsInfrastructureJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsPublicationJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsSubscriptionExtJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsSubscriptionJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsTopicJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DdsDcpsTypeSupportExtJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenDDS_DCPS_jni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenddsDcpsExtJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenddsDcpsExtTypeSupportJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dcps_java_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__ConditionTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__ContentFilteredTopicTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__DataReaderListenerTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__DataReaderTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__DataWriterListenerTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__DataWriterTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__DomainParticipantFactoryTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__DomainParticipantListenerTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__DomainParticipantTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__EntityTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__GuardConditionInterfTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__MultiTopicTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__ParticipantBuiltinTopicDataDataReaderTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__ParticipantBuiltinTopicDataDataWriterTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__ParticipantBuiltinTopicDataTypeSupportTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__PublicationBuiltinTopicDataDataReaderTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__PublicationBuiltinTopicDataDataWriterTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__PublicationBuiltinTopicDataTypeSupportTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__PublisherListenerTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__PublisherTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__QueryConditionTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__ReadConditionTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__StatusConditionTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__SubscriberListenerTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__SubscriberTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__SubscriptionBuiltinTopicDataDataReaderTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__SubscriptionBuiltinTopicDataDataWriterTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__SubscriptionBuiltinTopicDataTypeSupportTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__TopicBuiltinTopicDataDataReaderTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__TopicBuiltinTopicDataDataWriterTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__TopicBuiltinTopicDataTypeSupportTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__TopicDescriptionTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__TopicListenerTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__TopicTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__TypeSupportTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS__WaitSetInterfTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_ConditionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_ContentFilteredTopicHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_DataReaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_DataReaderListenerHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_DataWriterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_DataWriterListenerHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_DomainParticipantFactoryHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_DomainParticipantHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_DomainParticipantListenerHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_EntityHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_GuardConditionInterfHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_ListenerHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_MultiTopicHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_ParticipantBuiltinTopicDataDataReaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_ParticipantBuiltinTopicDataDataWriterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_ParticipantBuiltinTopicDataTypeSupportHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_ParticipantBuiltinTopicDataTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_PublicationBuiltinTopicDataDataReaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_PublicationBuiltinTopicDataDataWriterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_PublicationBuiltinTopicDataTypeSupportHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_PublicationBuiltinTopicDataTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_PublisherHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_PublisherListenerHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_QueryConditionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_ReadConditionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_StatusConditionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_SubscriberHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_SubscriberListenerHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_SubscriptionBuiltinTopicDataDataReaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_SubscriptionBuiltinTopicDataDataWriterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_SubscriptionBuiltinTopicDataTypeSupportHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_SubscriptionBuiltinTopicDataTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_TopicBuiltinTopicDataDataReaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_TopicBuiltinTopicDataDataWriterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_TopicBuiltinTopicDataTypeSupportHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_TopicBuiltinTopicDataTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_TopicDescriptionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_TopicHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_TopicListenerHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_TypeSupportHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_WaitSetInterfHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsConditionSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsCoreJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsCoreTypeSupportJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsDataReaderSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsDomainJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsGuidJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsInfrastructureJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsPublicationJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsSubscriptionExtJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsSubscriptionJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsTopicJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DdsDcpsTypeSupportExtJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__ConfigStoreTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__ConnectionRecordDataReaderTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__ConnectionRecordDataWriterTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__ConnectionRecordTypeSupportTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__DataReaderExTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__DataReaderListenerTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__DataWriterListenerTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__InternalThreadBuiltinTopicDataDataReaderTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__InternalThreadBuiltinTopicDataDataWriterTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__InternalThreadBuiltinTopicDataTypeSupportTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__ParticipantLocationBuiltinTopicDataDataReaderTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__ParticipantLocationBuiltinTopicDataDataWriterTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__ParticipantLocationBuiltinTopicDataTypeSupportTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS__TypeSupportTAOPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_CdrRepresentationFormatHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_ConfigStoreHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_ConnectionRecordDataReaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_ConnectionRecordDataWriterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_ConnectionRecordTypeSupportHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_ConnectionRecordTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_DataReaderExHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_DataReaderListenerHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_DataWriterListenerHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_InternalThreadBuiltinTopicDataDataReaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_InternalThreadBuiltinTopicDataDataWriterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_InternalThreadBuiltinTopicDataTypeSupportHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_InternalThreadBuiltinTopicDataTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_JsonRepresentationFormatHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_NetworkConfigModifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_ParticipantLocationBuiltinTopicDataDataReaderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_ParticipantLocationBuiltinTopicDataDataWriterHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_ParticipantLocationBuiltinTopicDataTypeSupportHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_ParticipantLocationBuiltinTopicDataTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_RepresentationFormatHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_transport_MulticastInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_transport_RtpsUdpInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_transport_TcpInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_transport_TransportConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_transport_TransportInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_transport_UdpInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_TypeSupportHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_jni_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenddsDcpsExtJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenddsDcpsExtTypeSupportJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="DDS\_BooleanHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ConditionLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ConditionTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ContentFilteredTopicLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ContentFilteredTopicTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DataReaderListenerLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DataReaderListenerTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DataReaderLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DataReaderTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DataWriterListenerLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DataWriterListenerTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DataWriterLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DataWriterTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DomainParticipantFactoryLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DomainParticipantFactoryTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DomainParticipantListenerLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DomainParticipantListenerTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DomainParticipantLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_DomainParticipantTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_EntityLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_EntityTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_GuardConditionInterfLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_GuardConditionInterfTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_Int16Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_Int32Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_Int64Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_Int8Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ListenerLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ListenerTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_MultiTopicLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_MultiTopicTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ParticipantBuiltinTopicDataDataReaderLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ParticipantBuiltinTopicDataDataReaderTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ParticipantBuiltinTopicDataDataWriterLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ParticipantBuiltinTopicDataDataWriterTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ParticipantBuiltinTopicDataTypeSupportLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ParticipantBuiltinTopicDataTypeSupportTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_PublicationBuiltinTopicDataDataReaderLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_PublicationBuiltinTopicDataDataReaderTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_PublicationBuiltinTopicDataDataWriterLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_PublicationBuiltinTopicDataDataWriterTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_PublicationBuiltinTopicDataTypeSupportLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_PublicationBuiltinTopicDataTypeSupportTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_PublisherListenerLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_PublisherListenerTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_PublisherLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_PublisherTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_QueryConditionLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_QueryConditionTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ReadConditionLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_ReadConditionTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_StatusConditionLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_StatusConditionTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_SubscriberListenerLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_SubscriberListenerTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_SubscriberLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_SubscriberTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_SubscriptionBuiltinTopicDataDataReaderLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_SubscriptionBuiltinTopicDataDataReaderTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_SubscriptionBuiltinTopicDataDataWriterLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_SubscriptionBuiltinTopicDataDataWriterTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_SubscriptionBuiltinTopicDataTypeSupportLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_SubscriptionBuiltinTopicDataTypeSupportTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicBuiltinTopicDataDataReaderLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicBuiltinTopicDataDataReaderTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicBuiltinTopicDataDataWriterLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicBuiltinTopicDataDataWriterTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicBuiltinTopicDataTypeSupportLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicBuiltinTopicDataTypeSupportTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicDescriptionLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicDescriptionTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicListenerLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicListenerTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TopicTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TypeSupportLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_TypeSupportTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_UInt16Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_UInt32Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_UInt64Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_UInt8Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_WaitSetInterfLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\_WaitSetInterfTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ALIVE_INSTANCE_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ALLOW_TYPE_COERCION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ANY_INSTANCE_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ANY_SAMPLE_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ANY_VIEW_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\BinaryProperty_t.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\BinaryProperty_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\BinaryProperty_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\BinaryPropertySeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\BinaryPropertySeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\BuiltinTopicKey_t.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\BuiltinTopicKey_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\BuiltinTopicKey_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ByteHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Char16Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Char8Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Condition.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ConditionHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ConditionHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ConditionOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ConditionSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ConditionSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ContentFilteredTopic.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ContentFilteredTopicHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ContentFilteredTopicHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ContentFilteredTopicOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DATA_AVAILABLE_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DATA_ON_READERS_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DATA_REPRESENTATION_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DATA_REPRESENTATION_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReader.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DATAREADER_QOS_DEFAULT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DATAREADER_QOS_USE_TOPIC_QOS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderListener.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderListenerHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderListenerHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderListenerOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderQos.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderQosHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderQosHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataReaderSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataRepresentationId_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataRepresentationIdSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataRepresentationIdSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataRepresentationQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataRepresentationQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataRepresentationQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriter.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DATAWRITER_QOS_DEFAULT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DATAWRITER_QOS_USE_TOPIC_QOS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriterHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriterHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriterListener.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriterListenerHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriterListenerHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriterListenerOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriterOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriterQos.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriterQosHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DataWriterQosHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DEADLINE_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DEADLINE_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DeadlineQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DeadlineQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DeadlineQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DESTINATIONORDER_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DESTINATIONORDER_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DestinationOrderQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DestinationOrderQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DestinationOrderQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DestinationOrderQosPolicyKind.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DestinationOrderQosPolicyKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DestinationOrderQosPolicyKindHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DISALLOW_TYPE_COERCION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainId_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipant.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantFactory.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantFactoryHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantFactoryHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantFactoryOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantFactoryQos.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantFactoryQosHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantFactoryQosHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantListener.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantListenerHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantListenerHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantListenerOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantQos.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantQosHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DomainParticipantQosHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DURABILITY_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DURABILITY_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DurabilityQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DurabilityQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DurabilityQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DurabilityQosPolicyKind.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DurabilityQosPolicyKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DurabilityQosPolicyKindHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DURABILITYSERVICE_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DURABILITYSERVICE_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DurabilityServiceQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DurabilityServiceQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DurabilityServiceQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DURATION_INFINITE_NSEC.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DURATION_INFINITE_SEC.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Duration_t.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Duration_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Duration_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DURATION_ZERO_NSEC.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\DURATION_ZERO_SEC.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Entity.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ENTITYFACTORY_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ENTITYFACTORY_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\EntityFactoryQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\EntityFactoryQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\EntityFactoryQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\EntityHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\EntityHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\EntityOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Float128Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Float32Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Float64Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\GROUPDATA_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\GROUPDATA_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\GroupDataQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\GroupDataQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\GroupDataQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\GuardCondition.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\GuardConditionInterf.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\GuardConditionInterfHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\GuardConditionInterfHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\GuardConditionInterfOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\HANDLE_NIL.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\HISTORY_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\HISTORY_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\HistoryQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\HistoryQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\HistoryQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\HistoryQosPolicyKind.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\HistoryQosPolicyKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\HistoryQosPolicyKindHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\INCONSISTENT_TOPIC_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\InconsistentTopicStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\InconsistentTopicStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\InconsistentTopicStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\InstanceHandle_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\InstanceHandleSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\InstanceHandleSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\InstanceStateKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\InstanceStateMaskHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\INVALID_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LATENCYBUDGET_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LATENCYBUDGET_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LatencyBudgetQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LatencyBudgetQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LatencyBudgetQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LENGTH_UNLIMITED.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LIFESPAN_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LIFESPAN_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LifespanQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LifespanQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LifespanQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Listener.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ListenerHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ListenerHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ListenerOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LIVELINESS_CHANGED_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LIVELINESS_LOST_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LIVELINESS_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LIVELINESS_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessChangedStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessChangedStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessChangedStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessLostStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessLostStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessLostStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessQosPolicyKind.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessQosPolicyKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\LivelinessQosPolicyKindHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\MultiTopic.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\MultiTopicHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\MultiTopicHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\MultiTopicOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\NEW_VIEW_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\NOT_ALIVE_DISPOSED_INSTANCE_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\NOT_ALIVE_INSTANCE_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\NOT_ALIVE_NO_WRITERS_INSTANCE_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\NOT_NEW_VIEW_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\NOT_READ_SAMPLE_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OctetArray16Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OctetArray16Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OctetSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OctetSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OFFERED_DEADLINE_MISSED_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OFFERED_INCOMPATIBLE_QOS_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OfferedDeadlineMissedStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OfferedDeadlineMissedStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OfferedDeadlineMissedStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OfferedIncompatibleQosStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OfferedIncompatibleQosStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OfferedIncompatibleQosStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OWNERSHIP_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OWNERSHIP_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OwnershipQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OwnershipQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OwnershipQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OwnershipQosPolicyKind.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OwnershipQosPolicyKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OwnershipQosPolicyKindHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OWNERSHIPSTRENGTH_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OWNERSHIPSTRENGTH_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OwnershipStrengthQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OwnershipStrengthQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\OwnershipStrengthQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PARTICIPANT_QOS_DEFAULT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicData.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataDataReader.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataDataReaderHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataDataReaderHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataDataReaderOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataDataWriter.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataDataWriterHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataDataWriterHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataDataWriterOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataTypeSupport.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataTypeSupportHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataTypeSupportHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataTypeSupportImpl.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ParticipantBuiltinTopicDataTypeSupportOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PARTITION_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PARTITION_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PartitionQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PartitionQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PartitionQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PRESENTATION_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PRESENTATION_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PresentationQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PresentationQosPolicyAccessScopeKind.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PresentationQosPolicyAccessScopeKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PresentationQosPolicyAccessScopeKindHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PresentationQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PresentationQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Property_t.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Property_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Property_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PropertyQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PropertyQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PropertyQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PropertySeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PropertySeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PUBLICATION_MATCHED_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicData.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataDataReader.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataDataReaderHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataDataReaderHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataDataReaderOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataDataWriter.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataDataWriterHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataDataWriterHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataDataWriterOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataTypeSupport.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataTypeSupportHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataTypeSupportHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataTypeSupportImpl.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationBuiltinTopicDataTypeSupportOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationMatchedStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationMatchedStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublicationMatchedStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Publisher.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PUBLISHER_QOS_DEFAULT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublisherHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublisherHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublisherListener.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublisherListenerHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublisherListenerHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublisherListenerOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublisherOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublisherQos.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublisherQosHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\PublisherQosHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\QosPolicyCount.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\QosPolicyCountHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\QosPolicyCountHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\QosPolicyCountSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\QosPolicyCountSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\QosPolicyId_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\QueryCondition.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\QueryConditionHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\QueryConditionHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\QueryConditionOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\READ_SAMPLE_STATE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReadCondition.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReadConditionHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReadConditionHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReadConditionOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\READERDATALIFECYCLE_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\READERDATALIFECYCLE_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReaderDataLifecycleQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReaderDataLifecycleQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReaderDataLifecycleQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RELIABILITY_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RELIABILITY_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReliabilityQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReliabilityQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReliabilityQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReliabilityQosPolicyKind.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReliabilityQosPolicyKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReliabilityQosPolicyKindHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\REQUESTED_DEADLINE_MISSED_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\REQUESTED_INCOMPATIBLE_QOS_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RequestedDeadlineMissedStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RequestedDeadlineMissedStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RequestedDeadlineMissedStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RequestedIncompatibleQosStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RequestedIncompatibleQosStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RequestedIncompatibleQosStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RESOURCELIMITS_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RESOURCELIMITS_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ResourceLimitsQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ResourceLimitsQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ResourceLimitsQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_ALREADY_DELETED.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_BAD_PARAMETER.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_ERROR.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_ILLEGAL_OPERATION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_IMMUTABLE_POLICY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_INCONSISTENT_POLICY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_NO_DATA.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_NOT_ENABLED.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_OK.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_OUT_OF_RESOURCES.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_PRECONDITION_NOT_MET.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_TIMEOUT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\RETCODE_UNSUPPORTED.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ReturnCode_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SAMPLE_LOST_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SAMPLE_REJECTED_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleInfo.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleInfoHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleInfoHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleInfoSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleInfoSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleLostStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleLostStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleLostStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleRejectedStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleRejectedStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleRejectedStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleRejectedStatusKind.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleRejectedStatusKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleRejectedStatusKindHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleStateKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SampleStateMaskHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\StatusCondition.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\StatusConditionHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\StatusConditionHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\StatusConditionOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\StatusKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\StatusMaskHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\String16Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\String8Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\StringSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\StringSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Subscriber.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SUBSCRIBER_QOS_DEFAULT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriberHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriberHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriberListener.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriberListenerHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriberListenerHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriberListenerOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriberOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriberQos.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriberQosHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriberQosHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SUBSCRIPTION_MATCHED_STATUS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicData.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataDataReader.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataDataReaderHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataDataReaderHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataDataReaderOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataDataWriter.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataDataWriterHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataDataWriterHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataDataWriterOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataTypeSupport.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataTypeSupportHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataTypeSupportHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataTypeSupportImpl.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionBuiltinTopicDataTypeSupportOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionMatchedStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionMatchedStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\SubscriptionMatchedStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TIME_INVALID_NSEC.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TIME_INVALID_SEC.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Time_t.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Time_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Time_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TIMEBASEDFILTER_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TIMEBASEDFILTER_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TimeBasedFilterQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TimeBasedFilterQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TimeBasedFilterQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\Topic.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TOPIC_QOS_DEFAULT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicData.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataDataReader.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataDataReaderHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataDataReaderHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataDataReaderOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataDataWriter.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataDataWriterHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataDataWriterHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataDataWriterOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataTypeSupport.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataTypeSupportHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataTypeSupportHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataTypeSupportImpl.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicBuiltinTopicDataTypeSupportOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TOPICDATA_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TOPICDATA_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicDataQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicDataQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicDataQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicDescription.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicDescriptionHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicDescriptionHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicDescriptionOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicListener.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicListenerHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicListenerHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicListenerOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicQos.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicQosHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TopicQosHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TRANSPORTPRIORITY_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TRANSPORTPRIORITY_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TransportPriorityQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TransportPriorityQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TransportPriorityQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TypeConsistencyEnforcementQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TypeConsistencyEnforcementQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TypeConsistencyEnforcementQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TypeConsistencyEnforcementQosPolicyKind_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TypeSupport.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TypeSupportHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TypeSupportHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\TypeSupportOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\USERDATA_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\USERDATA_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\UserDataQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\UserDataQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\UserDataQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ViewStateKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\ViewStateMaskHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\WaitSet.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\WaitSetInterf.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\WaitSetInterfHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\WaitSetInterfHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\WaitSetInterfOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\WRITERDATALIFECYCLE_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\WRITERDATALIFECYCLE_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\WriterDataLifecycleQosPolicy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\WriterDataLifecycleQosPolicyHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\WriterDataLifecycleQosPolicyHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\XCDR2_DATA_REPRESENTATION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\XCDR_DATA_REPRESENTATION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="DDS\XML_DATA_REPRESENTATION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_CdrRepresentationFormatLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_CdrRepresentationFormatTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ConfigStoreLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ConfigStoreTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ConnectionRecordDataReaderLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ConnectionRecordDataReaderTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ConnectionRecordDataWriterLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ConnectionRecordDataWriterTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ConnectionRecordTypeSupportLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ConnectionRecordTypeSupportTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_DataReaderExLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_DataReaderExTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_DataReaderListenerLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_DataReaderListenerTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_DataWriterListenerLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_DataWriterListenerTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_InternalThreadBuiltinTopicDataDataReaderLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_InternalThreadBuiltinTopicDataDataReaderTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_InternalThreadBuiltinTopicDataDataWriterLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_InternalThreadBuiltinTopicDataDataWriterTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_InternalThreadBuiltinTopicDataTypeSupportLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_InternalThreadBuiltinTopicDataTypeSupportTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_JsonRepresentationFormatLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_JsonRepresentationFormatTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ParticipantLocationBuiltinTopicDataDataReaderLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ParticipantLocationBuiltinTopicDataDataReaderTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ParticipantLocationBuiltinTopicDataDataWriterLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ParticipantLocationBuiltinTopicDataDataWriterTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ParticipantLocationBuiltinTopicDataTypeSupportLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_ParticipantLocationBuiltinTopicDataTypeSupportTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_RepresentationFormatLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_RepresentationFormatTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_TypeSupportLocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\_TypeSupportTAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ALL_STATUS_MASK.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\BudgetExceededStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\BudgetExceededStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\BudgetExceededStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\BuiltinTopicUtils.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\CdrRepresentationFormat.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\CdrRepresentationFormatHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\CdrRepresentationFormatHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\CdrRepresentationFormatOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConfigStore.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConfigStoreHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConfigStoreHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConfigStoreOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecord.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordDataReader.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordDataReaderHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordDataReaderHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordDataReaderOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordDataWriter.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordDataWriterHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordDataWriterHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordDataWriterOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordTypeSupport.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordTypeSupportHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordTypeSupportHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordTypeSupportImpl.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ConnectionRecordTypeSupportOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataReaderEx.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataReaderExHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataReaderExHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataReaderExOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataReaderListener.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataReaderListenerHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataReaderListenerHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataReaderListenerOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataWriterListener.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataWriterListenerHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataWriterListenerHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DataWriterListenerOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DEFAULT_STATUS_MASK.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\DisassociationStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\EntityId_t.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\EntityId_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\EntityId_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\EntityKey_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\EntityKey_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_BUILTIN_PARTICIPANT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_BUILTIN_READER_NO_KEY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_BUILTIN_READER_WITH_KEY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_BUILTIN_TOPIC.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_BUILTIN_UNKNOWN.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_BUILTIN_WRITER_NO_KEY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_BUILTIN_WRITER_WITH_KEY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_OPENDDS_NIL_WRITER.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_OPENDDS_PUBLISHER.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_OPENDDS_SUBSCRIBER.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_OPENDDS_TOPIC.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_OPENDDS_USER.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_USER_READER_NO_KEY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_USER_READER_WITH_KEY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_USER_UNKNOWN.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_USER_WRITER_NO_KEY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ENTITYKIND_USER_WRITER_WITH_KEY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GUID_t.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GUID_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GUID_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GuidCount.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GuidCountHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GuidCountHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GuidCountSequenceHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GuidCountSequenceHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GuidPrefix_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GuidPrefix_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GUIDSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GUIDSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GuidVendorId_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\GuidVendorId_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicData.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataDataReader.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataDataReaderHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataDataReaderHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataDataReaderOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataDataWriter.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataDataWriterHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataDataWriterHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataDataWriterOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataTypeSupport.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataTypeSupportHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataTypeSupportHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataTypeSupportImpl.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\InternalThreadBuiltinTopicDataTypeSupportOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\JSON_DATA_REPRESENTATION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\JsonRepresentationFormat.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\JsonRepresentationFormatHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\JsonRepresentationFormatHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\JsonRepresentationFormatOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LatencyStatistics.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LatencyStatisticsHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LatencyStatisticsHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LatencyStatisticsSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LatencyStatisticsSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATION_ICE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATION_ICE6.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATION_LOCAL.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATION_LOCAL6.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATION_RELAY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATION_RELAY6.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATOR_KIND_INVALID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATOR_KIND_RESERVED.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATOR_KIND_UDPv4.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATOR_KIND_UDPv6.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LOCATOR_PORT_INVALID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\Locator_t.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\Locator_tHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\Locator_tHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LocatorSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\LocatorSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\MCK_RTPS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\MCK_STUN.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\MessageCount.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\MessageCountHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\MessageCountHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\MessageCountKindHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\MessageCountSequenceHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\MessageCountSequenceHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\NetworkConfigModifier.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\NO_STATUS_MASK.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicData.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataDataReader.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataDataReaderHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataDataReaderHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataDataReaderOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataDataWriter.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataDataWriterHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataDataWriterHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataDataWriterOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataTypeSupport.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataTypeSupportHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataTypeSupportHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataTypeSupportImpl.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationBuiltinTopicDataTypeSupportOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\ParticipantLocationHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\PublicationDisconnectedStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\PublicationLostStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\PublicationLostStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\PublicationLostStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\PublicationReconnectedStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\RepresentationFormat.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\RepresentationFormatHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\RepresentationFormatHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\RepresentationFormatOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\RTPS_RELAY_STUN_PROTOCOL.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\SubscriptionDisconnectedStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\SubscriptionLostStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\SubscriptionLostStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\SubscriptionLostStatusHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\SubscriptionReconnectedStatusHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TheParticipantFactory.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TheServiceParticipant.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\ConfigurationConflictException.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\DuplicateException.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\MiscProblemException.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\MulticastInst.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\NotConfiguredException.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\NotFoundException.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\RtpsUdpInst.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\TcpInst.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\TheTransportRegistry.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\TransportConfig.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\TransportException.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\TransportInst.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\UdpInst.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\transport\UnableToCreateException.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TransportStatistics.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TransportStatisticsHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TransportStatisticsHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TransportStatisticsSequenceHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TransportStatisticsSequenceHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TypeSupport.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TypeSupportHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TypeSupportHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\TypeSupportOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DCPS\UNALIGNED_CDR_DATA_REPRESENTATION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\DOMAIN_UNKNOWN.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\MAX_USER_DOMAINID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\TRANSPORTTYPE_QOS_POLICY_ID.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="OpenDDS\TRANSPORTTYPE_QOS_POLICY_NAME.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dcps_java.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+    <None Include="dcps_java_optional.mpb">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\dds\DdsDcpsConditionSeq.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\DdsDcpsCoreTypeSupport.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\DdsDcpsDataReaderSeq.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\DdsDcpsDomain.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\DdsDcpsGuid.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\DdsDcpsInfrastructure.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\DdsDcpsPublication.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\DdsDcpsSubscription.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\DdsDcpsSubscriptionExt.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\DdsDcpsTopic.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\DdsDcpsTypeSupportExt.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\OpenddsDcpsExtTypeSupport.idl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="classes\DDS\DATAREADER_QOS_DEFAULT.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\DDS\DATAREADER_QOS_USE_TOPIC_QOS.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\DDS\DATAWRITER_QOS_DEFAULT.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\DDS\DATAWRITER_QOS_USE_TOPIC_QOS.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\DDS\GuardCondition.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\DDS\PARTICIPANT_QOS_DEFAULT.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\DDS\PUBLISHER_QOS_DEFAULT.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\DDS\SUBSCRIBER_QOS_DEFAULT.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\DDS\TOPIC_QOS_DEFAULT.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\DDS\WaitSet.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\OpenDDS\DCPS\NetworkConfigModifier.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\OpenDDS\DCPS\TheParticipantFactory.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\OpenDDS\DCPS\TheServiceParticipant.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\OpenDDS\DCPS\transport\MulticastInst.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\OpenDDS\DCPS\transport\RtpsUdpInst.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\OpenDDS\DCPS\transport\TcpInst.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\OpenDDS\DCPS\transport\TheTransportRegistry.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\OpenDDS\DCPS\transport\TransportConfig.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\OpenDDS\DCPS\transport\TransportInst.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\OpenDDS\DCPS\transport\UdpInst.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\dds\DdsDcpsCore.idl">
+      <Filter>Idl2jni And Typesupportjavaonly Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\dds\OpenddsDcpsExt.idl">
+      <Filter>Idl2jni And Typesupportjavaonly Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="dcps_java.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

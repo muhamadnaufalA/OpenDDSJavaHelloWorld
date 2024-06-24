@@ -1,0 +1,108 @@
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\BOOLEANSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\BooleanSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\BOOLEANSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\BooleanSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\CHARSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\CharSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\CHARSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\CharSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\DOUBLESEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\DoubleSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\DOUBLESEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\DoubleSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\FLOATSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\FloatSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\FLOATSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\FloatSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\LONGLONGSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\LongLongSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\LONGLONGSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\LongLongSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\LONGSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\LongSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\LONGSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\LongSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\OCTETSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\OctetSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\OCTETSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\OctetSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\SHORTSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\ShortSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\SHORTSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\ShortSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\STRINGSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\StringSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\STRINGSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\StringSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\ULONGLONGSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\ULongLongSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\ULONGLONGSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\ULongLongSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\ULONGSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\ULongSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\ULONGSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\ULongSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\USHORTSEQHELPER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\UShortSeqHelper.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\JAVA\TAO\CORBA\USHORTSEQHOLDER.JAVA
+cmd /c "perl ..\../java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath ..\../lib/i2jrt_corba.jar -classpath ..\../lib/i2jrt.jar "CORBA\UShortSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\BOOLEANSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\BooleanSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\CHARSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\CharSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\DOUBLESEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\DoubleSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\FLOATSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\FloatSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\LONGLONGSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\LongLongSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\LONGSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\LongSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\OCTETSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\OctetSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\SHORTSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\ShortSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\STRINGSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\StringSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\ULONGLONGSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\ULongLongSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\ULONGSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\ULongSeq.pidl""
+endlocal
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDS-JAVA\OPENDDS-3.28.1\ACE_WRAPPERS\TAO\TAO\USHORTSEQ.PIDL
+setlocal
+PATH=%PATH%;D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\lib
+cmd /c "..\..\bin\idl2jni -Wb,native_lib_name=tao_java -SS -Wb,stub_export_include=tao_java_export.h -Wb,stub_export_macro=tao_java_Export -Wb,tao_include_prefix=tao/ "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\UShortSeq.pidl""
+endlocal

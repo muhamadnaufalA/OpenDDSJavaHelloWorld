@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-C604-ADCAC604B279}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-C604-ADCAC604B279}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-C604-ADCAC604B279}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Java Files">
+      <UniqueIdentifier>{0490FCE5-FECA-1BAD-C604-ADCAC604B279}</UniqueIdentifier>
+      <Extensions>java</Extensions>
+    </Filter>
+    <Filter Include="Idl2jni Files">
+      <UniqueIdentifier>{8CFFD56F-FECA-1BAD-C604-ADCAC604B279}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{502A2050-FECA-1BAD-C604-ADCAC604B279}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BooleanSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LongLongSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LongSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OctetSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ULongLongSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ULongSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UShortSeqJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BooleanSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CharSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LongLongSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LongSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OctetSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tao_java_export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ULongLongSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ULongSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UShortSeqJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tao_java.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CORBA\BooleanSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\BooleanSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\CharSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\CharSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\DoubleSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\DoubleSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\FloatSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\FloatSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\LongLongSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\LongLongSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\LongSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\LongSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\OctetSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\OctetSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\ShortSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\ShortSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\StringSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\StringSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\ULongLongSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\ULongLongSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\ULongSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\ULongSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\UShortSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CORBA\UShortSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(TAO_ROOT)\tao\BooleanSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\CharSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\DoubleSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\FloatSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\LongLongSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\LongSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\OctetSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\ShortSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\StringSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\ULongLongSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\ULongSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="$(TAO_ROOT)\tao\UShortSeq.pidl">
+      <Filter>Idl2jni Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tao_java.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

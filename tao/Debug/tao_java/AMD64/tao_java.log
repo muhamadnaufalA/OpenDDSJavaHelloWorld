@@ -1,0 +1,63 @@
+﻿  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\BooleanSeq.pidl"
+  tao-idli_oMgWGx.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\CharSeq.pidl"
+  tao-idli_6Ujq4r.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\DoubleSeq.pidl"
+  tao-idli_EkYN7G.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\FloatSeq.pidl"
+  tao-idli_AC23pt.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\LongLongSeq.pidl"
+  tao-idli_SDLdkL.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\LongSeq.pidl"
+  tao-idli_K6WKpY.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\OctetSeq.pidl"
+  tao-idli_8yYiU7.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\ShortSeq.pidl"
+  tao-idli_b5abgU.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\StringSeq.pidl"
+  tao-idli_WB5lQm.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\ULongLongSeq.pidl"
+  tao-idli_YdW8TE.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\ULongSeq.pidl"
+  tao-idli_nUp4FG.cpp
+  Invoking "..\..\bin\idl2jni on D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\TAO\tao\UShortSeq.pidl"
+  tao-idli_vhoV6n.cpp
+  Invoking "perl on CORBA\BooleanSeqHelper.java"
+  Invoking "perl on CORBA\BooleanSeqHolder.java"
+  Invoking "perl on CORBA\CharSeqHelper.java"
+  Invoking "perl on CORBA\CharSeqHolder.java"
+  Invoking "perl on CORBA\DoubleSeqHelper.java"
+  Invoking "perl on CORBA\DoubleSeqHolder.java"
+  Invoking "perl on CORBA\FloatSeqHelper.java"
+  Invoking "perl on CORBA\FloatSeqHolder.java"
+  Invoking "perl on CORBA\LongLongSeqHelper.java"
+  Invoking "perl on CORBA\LongLongSeqHolder.java"
+  Invoking "perl on CORBA\LongSeqHelper.java"
+  Invoking "perl on CORBA\LongSeqHolder.java"
+  Invoking "perl on CORBA\OctetSeqHelper.java"
+  Invoking "perl on CORBA\OctetSeqHolder.java"
+  Invoking "perl on CORBA\ShortSeqHelper.java"
+  Invoking "perl on CORBA\ShortSeqHolder.java"
+  Invoking "perl on CORBA\StringSeqHelper.java"
+  Invoking "perl on CORBA\StringSeqHolder.java"
+  Invoking "perl on CORBA\ULongLongSeqHelper.java"
+  Invoking "perl on CORBA\ULongLongSeqHolder.java"
+  Invoking "perl on CORBA\ULongSeqHelper.java"
+  Invoking "perl on CORBA\ULongSeqHolder.java"
+  Invoking "perl on CORBA\UShortSeqHelper.java"
+  Invoking "perl on CORBA\UShortSeqHolder.java"
+  BooleanSeqJC.cpp
+  CharSeqJC.cpp
+  DoubleSeqJC.cpp
+  FloatSeqJC.cpp
+  LongLongSeqJC.cpp
+  LongSeqJC.cpp
+  OctetSeqJC.cpp
+  ShortSeqJC.cpp
+  StringSeqJC.cpp
+  ULongLongSeqJC.cpp
+  ULongSeqJC.cpp
+  UShortSeqJC.cpp
+  Generating Code...
+     Creating library ..\..\lib\tao_javad.lib and object ..\..\lib\tao_javad.exp
+  tao_java.vcxproj -> D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\lib\tao_javad.dll
