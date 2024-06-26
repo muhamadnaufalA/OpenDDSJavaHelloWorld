@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-633B-6075DA166339}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-633B-6075DA166339}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-633B-6075DA166339}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Java Files">
+      <UniqueIdentifier>{0490FCE5-FECA-1BAD-633B-6075DA166339}</UniqueIdentifier>
+      <Extensions>java</Extensions>
+    </Filter>
+    <Filter Include="Javah Files">
+      <UniqueIdentifier>{7D909643-FECA-1BAD-633B-6075DA166339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{502A2050-FECA-1BAD-633B-6075DA166339}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="i2jrt_ORB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="i2jrt_TAOObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="idl2jni_runtime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="i2jrt_ORB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="i2jrt_TAOObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idl2jni_BaseJavaPeer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idl2jni_jni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idl2jni_runtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="idl2jni_runtime_Export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="i2jrt_optional.mpb">
+      <Filter>Build Files</Filter>
+    </None>
+    <None Include="idl2jni_runtime.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="i2jrt\ORB.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="i2jrt\TAOLocalObject.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="i2jrt\TAOObject.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="classes\i2jrt\ORB.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="classes\i2jrt\TAOObject.class">
+      <Filter>Javah Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="idl2jni_runtime.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

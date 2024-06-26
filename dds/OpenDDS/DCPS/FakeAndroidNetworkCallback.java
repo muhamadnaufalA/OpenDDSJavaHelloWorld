@@ -7,4 +7,4 @@
 
 // Empty file to build on non-android platforms
 
-package dds.OpenDDS.DCPS;
+package OpenDDS.DCPS;

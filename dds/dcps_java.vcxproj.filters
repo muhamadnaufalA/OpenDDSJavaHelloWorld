@@ -2,34 +2,34 @@
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{B1F27843-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-C661-CD0A00006233}</UniqueIdentifier>
       <Extensions>cpp;cxx;cc;c;C</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{06319535-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <UniqueIdentifier>{06319535-FECA-1BAD-C661-CD0A00006233}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hh</Extensions>
     </Filter>
     <Filter Include="Java Files">
-      <UniqueIdentifier>{0490FCE5-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <UniqueIdentifier>{0490FCE5-FECA-1BAD-C661-CD0A00006233}</UniqueIdentifier>
       <Extensions>java</Extensions>
     </Filter>
     <Filter Include="Build Files">
-      <UniqueIdentifier>{A1909F1C-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-C661-CD0A00006233}</UniqueIdentifier>
       <Extensions>mpc;mpb;mwc</Extensions>
     </Filter>
     <Filter Include="Idl2jni Files">
-      <UniqueIdentifier>{8CFFD56F-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <UniqueIdentifier>{8CFFD56F-FECA-1BAD-C661-CD0A00006233}</UniqueIdentifier>
       <Extensions>idl</Extensions>
     </Filter>
     <Filter Include="Javah Files">
-      <UniqueIdentifier>{7D909643-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <UniqueIdentifier>{7D909643-FECA-1BAD-C661-CD0A00006233}</UniqueIdentifier>
     </Filter>
     <Filter Include="Idl2jni And Typesupportjavaonly Files">
-      <UniqueIdentifier>{848A741C-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <UniqueIdentifier>{848A741C-FECA-1BAD-C661-CD0A00006233}</UniqueIdentifier>
       <Extensions>idl</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{502A2050-FECA-1BAD-C661-CD0AC604A235}</UniqueIdentifier>
+      <UniqueIdentifier>{502A2050-FECA-1BAD-C661-CD0A00006233}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
   </ItemGroup>
@@ -207,10 +207,22 @@
     <ClInclude Include="DDS_ContentFilteredTopicHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DDS_DATAREADER_QOS_DEFAULT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_DATAREADER_QOS_USE_TOPIC_QOS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="DDS_DataReaderHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DDS_DataReaderListenerHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_DATAWRITER_QOS_DEFAULT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_DATAWRITER_QOS_USE_TOPIC_QOS.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DDS_DataWriterHelper.h">
@@ -231,6 +243,9 @@
     <ClInclude Include="DDS_EntityHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DDS_GuardCondition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="DDS_GuardConditionInterfHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -238,6 +253,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DDS_MultiTopicHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_PARTICIPANT_QOS_DEFAULT.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DDS_ParticipantBuiltinTopicDataDataReaderHelper.h">
@@ -264,6 +282,9 @@
     <ClInclude Include="DDS_PublicationBuiltinTopicDataTypeSupportImpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DDS_PUBLISHER_QOS_DEFAULT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="DDS_PublisherHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -277,6 +298,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DDS_StatusConditionHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_SUBSCRIBER_QOS_DEFAULT.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DDS_SubscriberHelper.h">
@@ -295,6 +319,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DDS_SubscriptionBuiltinTopicDataTypeSupportImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_TOPIC_QOS_DEFAULT.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DDS_TopicBuiltinTopicDataDataReaderHelper.h">
@@ -319,6 +346,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DDS_TypeSupportHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DDS_WaitSet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DDS_WaitSetInterfHelper.h">
@@ -462,6 +492,12 @@
     <ClInclude Include="OpenDDS_DCPS_RepresentationFormatHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_TheParticipantFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_TheServiceParticipant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="OpenDDS_DCPS_transport_MulticastInst.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -469,6 +505,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="OpenDDS_DCPS_transport_TcpInst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenDDS_DCPS_transport_TheTransportRegistry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="OpenDDS_DCPS_transport_TransportConfig.h">
@@ -2943,40 +2982,40 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\dds\DdsDcpsConditionSeq.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsConditionSeq.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\DdsDcpsCoreTypeSupport.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsCoreTypeSupport.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\DdsDcpsDataReaderSeq.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsDataReaderSeq.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\DdsDcpsDomain.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsDomain.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\DdsDcpsGuid.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsGuid.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\DdsDcpsInfrastructure.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsInfrastructure.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\DdsDcpsPublication.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsPublication.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\DdsDcpsSubscription.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsSubscription.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\DdsDcpsSubscriptionExt.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsSubscriptionExt.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\DdsDcpsTopic.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsTopic.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\DdsDcpsTypeSupportExt.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsTypeSupportExt.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\OpenddsDcpsExtTypeSupport.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\OpenddsDcpsExtTypeSupport.idl">
       <Filter>Idl2jni Files</Filter>
     </CustomBuild>
   </ItemGroup>
@@ -3043,10 +3082,10 @@
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\dds\DdsDcpsCore.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\DdsDcpsCore.idl">
       <Filter>Idl2jni And Typesupportjavaonly Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="..\..\dds\OpenddsDcpsExt.idl">
+    <CustomBuild Include="$(DDS_ROOT)\dds\OpenddsDcpsExt.idl">
       <Filter>Idl2jni And Typesupportjavaonly Files</Filter>
     </CustomBuild>
   </ItemGroup>

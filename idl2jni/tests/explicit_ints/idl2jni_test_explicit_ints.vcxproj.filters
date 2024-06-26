@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-C14E-61202437D297}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-C14E-61202437D297}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Java Files">
+      <UniqueIdentifier>{0490FCE5-FECA-1BAD-C14E-61202437D297}</UniqueIdentifier>
+      <Extensions>java</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-C14E-61202437D297}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Idl2jni And Idl Files">
+      <UniqueIdentifier>{A56854F0-FECA-1BAD-C14E-61202437D297}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{763028EF-FECA-1BAD-C14E-61202437D297}</UniqueIdentifier>
+      <Extensions>i;ipp;ixx;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="explicit_intsC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explicit_intsJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explicit_intsJS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explicit_intsS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="explicit_intsC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="explicit_intsJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="explicit_intsJS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="explicit_intsS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="explicit_ints\CarrHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\CarrHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\CseqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\CseqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\i16_max.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\i16_min.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\i32_max.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\i32_min.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\i64_max.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\i64_min.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\i8_max.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\i8_min.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\I8arrHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\I8arrHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\I8seqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\I8seqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\OarrHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\OarrHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\OseqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\OseqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\StructWithInts.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\StructWithIntsHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\StructWithIntsHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\u16_max.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\u32_max.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\u64_max.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\u8_max.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\U8arrHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\U8arrHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\U8seqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\U8seqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\UnionOverI8.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\UnionOverI8Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\UnionOverI8Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\UnionOverU8.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\UnionOverU8Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="explicit_ints\UnionOverU8Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="idl2jni_test_explicit_ints.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="explicit_ints.idl">
+      <Filter>Idl2jni And Idl Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="explicit_intsC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

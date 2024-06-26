@@ -1,0 +1,3 @@
+﻿  Invoking "perl on HelloWorldPublisher.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): error MSB8066: Custom build for 'HelloWorldPublisher.java' exited with code 2.

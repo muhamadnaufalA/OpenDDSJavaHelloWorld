@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-414C-3F287A3F5295}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-414C-3F287A3F5295}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Java Files">
+      <UniqueIdentifier>{0490FCE5-FECA-1BAD-414C-3F287A3F5295}</UniqueIdentifier>
+      <Extensions>java</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-414C-3F287A3F5295}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{4190FD01-FECA-1BAD-414C-3F287A3F5295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Idl2jni And Idl Files">
+      <UniqueIdentifier>{A56854F0-FECA-1BAD-414C-3F287A3F5295}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{763028EF-FECA-1BAD-414C-3F287A3F5295}</UniqueIdentifier>
+      <Extensions>i;ipp;ixx;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestUnion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionTestC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionTestJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionTestJS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionTestS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UnionTestC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionTestJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionTestJS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionTestS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="EHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NoDefault.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NoDefaultHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="NoDefaultHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="TestUnion.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WithDefault.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WithDefaultHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="WithDefaultHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="idl2jni_test_union.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="run_test.pl">
+      <Filter>Test Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="UnionTest.idl">
+      <Filter>Idl2jni And Idl Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnionTestC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

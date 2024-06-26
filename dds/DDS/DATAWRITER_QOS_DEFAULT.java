@@ -5,7 +5,7 @@
  * See: http://www.opendds.org/license.html
  */
 
-package dds.DDS;
+package DDS;
 
 public final class DATAWRITER_QOS_DEFAULT {
 

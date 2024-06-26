@@ -13,16 +13,19 @@
       <UniqueIdentifier>{A1909F1C-FECA-1BAD-8045-20C20000002E}</UniqueIdentifier>
       <Extensions>mpc;mpb;mwc</Extensions>
     </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{4190FD01-FECA-1BAD-8045-20C20000002E}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Java Files">
       <UniqueIdentifier>{0490FCE5-FECA-1BAD-8045-20C20000002E}</UniqueIdentifier>
       <Extensions>java</Extensions>
     </Filter>
-    <Filter Include="Idl2jni And Idl Files">
-      <UniqueIdentifier>{A56854F0-FECA-1BAD-8045-20C20000002E}</UniqueIdentifier>
-      <Extensions>idl</Extensions>
-    </Filter>
     <Filter Include="Idl2jni And Idl And Typesupport Files">
       <UniqueIdentifier>{12DBF21B-FECA-1BAD-8045-20C20000002E}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Idl2jni And Idl Files">
+      <UniqueIdentifier>{A56854F0-FECA-1BAD-8045-20C20000002E}</UniqueIdentifier>
       <Extensions>idl</Extensions>
     </Filter>
     <Filter Include="Inline Files">
@@ -85,6 +88,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="run_test.pl">
+      <Filter>Test Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="HelloWorld\Message.java">
       <Filter>Java Files</Filter>
     </CustomBuild>
@@ -94,18 +102,15 @@
     <CustomBuild Include="HelloWorld\MessageHolder.java">
       <Filter>Java Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="HelloWorldSubscriber.java">
-      <Filter>Java Files</Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="HelloWorld.idl">
+      <Filter>Idl2jni And Idl And Typesupport Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="HelloWorldTypeSupport.idl">
       <Filter>Idl2jni And Idl Files</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="HelloWorld.idl">
-      <Filter>Idl2jni And Idl And Typesupport Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

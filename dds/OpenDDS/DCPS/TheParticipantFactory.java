@@ -5,16 +5,16 @@
  * See: http://www.opendds.org/license.html
  */
 
-package dds.OpenDDS.DCPS;
+package OpenDDS.DCPS;
 
 public final class TheParticipantFactory {
 
   private TheParticipantFactory() {}
 
-  public static native dds.DDS.DomainParticipantFactory
-    WithArgs(tao.CORBA.StringSeqHolder args);
+  public static native DDS.DomainParticipantFactory
+    WithArgs(idl2jni.corba.org.omg.CORBA.StringSeqHolder args);
 
-  public static native dds.DDS.DomainParticipantFactory
+  public static native DDS.DomainParticipantFactory
     getInstance();
 
   static {

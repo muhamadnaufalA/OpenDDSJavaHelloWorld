@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B1F27843-FECA-1BAD-4BAC-DEB0A3927612}</UniqueIdentifier>
+      <Extensions>cpp;cxx;cc;c;C</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{06319535-FECA-1BAD-4BAC-DEB0A3927612}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hh</Extensions>
+    </Filter>
+    <Filter Include="Java Files">
+      <UniqueIdentifier>{0490FCE5-FECA-1BAD-4BAC-DEB0A3927612}</UniqueIdentifier>
+      <Extensions>java</Extensions>
+    </Filter>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-4BAC-DEB0A3927612}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Idl2jni And Idl Files">
+      <UniqueIdentifier>{A56854F0-FECA-1BAD-4BAC-DEB0A3927612}</UniqueIdentifier>
+      <Extensions>idl</Extensions>
+    </Filter>
+    <Filter Include="Inline Files">
+      <UniqueIdentifier>{763028EF-FECA-1BAD-4BAC-DEB0A3927612}</UniqueIdentifier>
+      <Extensions>i;ipp;ixx;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="simpleC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleJC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleJS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="simpleC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleJC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleJS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="simple\_Local2LocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\_Local2TAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\_Local3LocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\_Local3TAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\_TestInterf2Stub.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\_TestInterf3Stub.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\_TestInterfStub.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\_TestLILocalBase.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\_TestLITAOPeer.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\ArrayBounds.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\BoolSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\BoolSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\BoolSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\BoolSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\ByteSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\ByteSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\ByteSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\ByteSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\CharSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\CharSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\CharSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\CharSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\DoubleSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\DoubleSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\DoubleSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\DoubleSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\EnumArrayHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\EnumArrayHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\EnumSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\EnumSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\FloatSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\FloatSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\FloatSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\FloatSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\Local2.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\Local2Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\Local2Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\Local2Operations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\Local2SeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\Local2SeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\Local3.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\Local3Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\Local3Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\Local3Operations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\LongSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\LongSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\LongSeqSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\LongSeqSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\SeqOfTypedefedLongHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\SeqOfTypedefedLongHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\ShortSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\ShortSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\ShortSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\ShortSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\StringSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\StringSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\StringSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\StringSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\StringSeqSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\StringSeqSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\StringTypedefHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\StructWithObjref.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\StructWithObjrefHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\StructWithObjrefHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestArray2TypedefHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestArray2TypedefHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestArrayTypedef2Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestArrayTypedefHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestArrayTypedefHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestConstBool.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestConstChar.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestConstDouble.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestConstFloat.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestConstLong.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestConstString.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestConstTypedef.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestConstWchar.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestEnum.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestEnumHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestEnumHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterf.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterf2.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterf2Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterf2Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterf2Operations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterf3.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterf3Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterf3Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterf3Operations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterfHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterfHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestInterfOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestLI.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestLIHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestLIHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestLIOperations.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestNestedStruct.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestNestedStructHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestNestedStructHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestSeqTypedefHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestSeqTypedefHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStringArrayHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStringArrayHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStruct.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStructArrayHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStructArrayHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStructHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStructHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStructSequenceHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStructSequenceHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStructWithEnum.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStructWithEnumHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestStructWithEnumHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestTypedefHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion1.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion1Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion1Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion2.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion2Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion2Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion2SeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion2SeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion3.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion3Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion3Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion4.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion4Helper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TestUnion4Holder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\TIMESTAMP_INVALID_NSEC.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\UShortSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\UShortSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\UShortSeqSeqHelper.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simple\UShortSeqSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="idl2jni_test_simple.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="simple.idl">
+      <Filter>Idl2jni And Idl Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="simpleC.inl">
+      <Filter>Inline Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

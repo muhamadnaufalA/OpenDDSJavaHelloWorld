@@ -1,0 +1,125 @@
+﻿  Invoking "perl on org\omg\CORBA\ACTIVITY_COMPLETED.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\ACTIVITY_REQUIRED.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\BAD_CONTEXT.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\BAD_INV_ORDER.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\BAD_OPERATION.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\BAD_PARAM.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\BAD_QOS.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\BAD_TYPECODE.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\BooleanHolder.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\ByteHolder.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\CharHolder.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\CODESET_INCOMPATIBLE.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\COMM_FAILURE.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\CompletionStatus.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\Context.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\ContextList.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\DATA_CONVERSION.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\DomainManager.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\DoubleHolder.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\ExceptionList.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\FloatHolder.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\FREE_MEM.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\IMP_LIMIT.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\INITIALIZE.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\INTERNAL.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\INTF_REPOS.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\IntHolder.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\INV_FLAG.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\INV_IDENT.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\INV_OBJREF.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\INV_POLICY.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\INVALID_ACTIVITY.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\INVALID_TRANSACTION.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\LocalObject.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\LongHolder.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\MARSHAL.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\NamedValue.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\NO_IMPLEMENT.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\NO_MEMORY.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\NO_PERMISSION.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\NO_RESOURCES.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\NO_RESPONSE.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\NVList.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\OBJ_ADAPTER.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\Object.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\OBJECT_NOT_EXIST.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\PERSIST_STORE.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\Policy.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\REBIND.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\Request.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\SetOverrideType.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\ShortHolder.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\StringHolder.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\StringSeqHolder.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\SystemException.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\TIMEOUT.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\TRANSACTION_MODE.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\TRANSACTION_REQUIRED.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\TRANSACTION_ROLLEDBACK.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\TRANSACTION_UNAVAILABLE.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\TRANSIENT.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+  Invoking "perl on org\omg\CORBA\UNKNOWN.java"
+  Can't open perl script "/java/build_scripts/javac_wrapper.pl": No such file or directory
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): error MSB8066: Custom build for 'org\omg\CORBA\ACTIVITY_COMPLETED.java;org\omg\CORBA\ACTIVITY_REQUIRED.java;org\omg\CORBA\BAD_CONTEXT.java;org\omg\CORBA\BAD_INV_ORDER.java;org\omg\CORBA\BAD_OPERATION.java;org\omg\CORBA\BAD_PARAM.java;org\omg\CORBA\BAD_QOS.java;org\omg\CORBA\BAD_TYPECODE.java;org\omg\CORBA\BooleanHolder.java;org\omg\CORBA\ByteHolder.java;org\omg\CORBA\CharHolder.java;org\omg\CORBA\CODESET_INCOMPATIBLE.java;org\omg\CORBA\COMM_FAILURE.java;org\omg\CORBA\CompletionStatus.java;org\omg\CORBA\Context.java;org\omg\CORBA\ContextList.java;org\omg\CORBA\DATA_CONVERSION.java;org\omg\CORBA\DomainManager.java;org\omg\CORBA\DoubleHolder.java;org\omg\CORBA\ExceptionList.java;org\omg\CORBA\FloatHolder.java;org\omg\CORBA\FREE_MEM.java;org\omg\CORBA\IMP_LIMIT.java;org\omg\CORBA\INITIALIZE.java;org\omg\CORBA\INTERNAL.java;org\omg\CORBA\INTF_REPOS.java;org\omg\CORBA\IntHolder.java;org\omg\CORBA\INV_FLAG.java;org\omg\CORBA\INV_IDENT.java;org\omg\CORBA\INV_OBJREF.java;org\omg\CORBA\INV_POLICY.java;org\omg\CORBA\INVALID_ACTIVITY.java;org\omg\CORBA\INVALID_TRANSACTION.java;org\omg\CORBA\LocalObject.java;org\omg\CORBA\LongHolder.java;org\omg\CORBA\MARSHAL.java;org\omg\CORBA\NamedValue.java;org\omg\CORBA\NO_IMPLEMENT.java;org\omg\CORBA\NO_MEMORY.java;org\omg\CORBA\NO_PERMISSION.java;org\omg\CORBA\NO_RESOURCES.java;org\omg\CORBA\NO_RESPONSE.java;org\omg\CORBA\NVList.java;org\omg\CORBA\OBJ_ADAPTER.java;org\omg\CORBA\Object.java;org\omg\CORBA\OBJECT_NOT_EXIST.java;org\omg\CORBA\PERSIST_STORE.java;org\omg\CORBA\Policy.java;org\omg\CORBA\REBIND.java;org\omg\CORBA\Request.java;org\omg\CORBA\SetOverrideType.java;org\omg\CORBA\ShortHolder.java;org\omg\CORBA\StringHolder.java;org\omg\CORBA\StringSeqHolder.java;org\omg\CORBA\SystemException.java;org\omg\CORBA\TIMEOUT.java;org\omg\CORBA\TRANSACTION_MODE.java;org\omg\CORBA\TRANSACTION_REQUIRED.java;org\omg\CORBA\TRANSACTION_ROLLEDBACK.java;org\omg\CORBA\TRANSACTION_UNAVAILABLE.java;org\omg\CORBA\TRANSIENT.java;org\omg\CORBA\UNKNOWN.java' exited with code 2.

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Java Files">
+      <UniqueIdentifier>{0490FCE5-FECA-1BAD-AB0F-06998CCAAB0D}</UniqueIdentifier>
+      <Extensions>java</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="org\omg\CORBA\ACTIVITY_COMPLETED.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\ACTIVITY_REQUIRED.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\BAD_CONTEXT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\BAD_INV_ORDER.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\BAD_OPERATION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\BAD_PARAM.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\BAD_QOS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\BAD_TYPECODE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\BooleanHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\ByteHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\CharHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\CODESET_INCOMPATIBLE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\COMM_FAILURE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\CompletionStatus.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\Context.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\ContextList.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\DATA_CONVERSION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\DomainManager.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\DoubleHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\ExceptionList.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\FloatHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\FREE_MEM.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\IMP_LIMIT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\INITIALIZE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\INTERNAL.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\INTF_REPOS.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\IntHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\INV_FLAG.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\INV_IDENT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\INV_OBJREF.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\INV_POLICY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\INVALID_ACTIVITY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\INVALID_TRANSACTION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\LocalObject.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\LongHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\MARSHAL.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\NamedValue.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\NO_IMPLEMENT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\NO_MEMORY.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\NO_PERMISSION.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\NO_RESOURCES.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\NO_RESPONSE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\NVList.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\OBJ_ADAPTER.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\Object.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\OBJECT_NOT_EXIST.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\PERSIST_STORE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\Policy.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\REBIND.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\Request.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\SetOverrideType.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\ShortHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\StringHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\StringSeqHolder.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\SystemException.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\TIMEOUT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\TRANSACTION_MODE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\TRANSACTION_REQUIRED.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\TRANSACTION_ROLLEDBACK.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\TRANSACTION_UNAVAILABLE.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\TRANSIENT.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="org\omg\CORBA\UNKNOWN.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

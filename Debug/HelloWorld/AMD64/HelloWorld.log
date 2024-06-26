@@ -1,41 +1,7 @@
-﻿  Invoking "perl on HelloWorldSubscriber.java"
-  HelloWorldSubscriber.java:54: error: reference to _DataReaderListenerLocalBase is ambiguous
-  class DataReaderListenerImpl extends _DataReaderListenerLocalBase {
-                                       ^
-    both class OpenDDS.DCPS._DataReaderListenerLocalBase in OpenDDS.DCPS and class DDS._DataReaderListenerLocalBase in DDS match
-  HelloWorldSubscriber.java:26: error: cannot find symbol
-          MessageTypeSupportImpl servant = new MessageTypeSupportImpl();
-          ^
-    symbol:   class MessageTypeSupportImpl
-    location: class HelloWorldSubscriber
-  HelloWorldSubscriber.java:26: error: cannot find symbol
-          MessageTypeSupportImpl servant = new MessageTypeSupportImpl();
-                                               ^
-    symbol:   class MessageTypeSupportImpl
-    location: class HelloWorldSubscriber
-  HelloWorldSubscriber.java:38: error: incompatible types: DataReaderListenerImpl cannot be converted to DataReaderListener
-          DataReader dr = sub.create_datareader(top, DATAREADER_QOS_DEFAULT.get(), listener, DEFAULT_STATUS_MASK.value);
-                                                                                   ^
-  HelloWorldSubscriber.java:56: error: method does not override or implement a method from a supertype
-      @Override
-      ^
-  HelloWorldSubscriber.java:58: error: cannot find symbol
-          MessageDataReader mdr = MessageDataReaderHelper.narrow(reader);
-          ^
-    symbol:   class MessageDataReader
-    location: class DataReaderListenerImpl
-  HelloWorldSubscriber.java:58: error: cannot find symbol
-          MessageDataReader mdr = MessageDataReaderHelper.narrow(reader);
-                                  ^
-    symbol:   variable MessageDataReaderHelper
-    location: class DataReaderListenerImpl
-  HelloWorldSubscriber.java:65: error: no suitable constructor found for SampleInfo(int,int,int,Time_t,int,int,int,int,int,int,int,boolean)
-          SampleInfoHolder sih = new SampleInfoHolder(new SampleInfo(0, 0, 0, new Time_t(), 0, 0, 0, 0, 0, 0, 0, false));
-                                                      ^
-      constructor SampleInfo.SampleInfo() is not applicable
-        (actual and formal argument lists differ in length)
-      constructor SampleInfo.SampleInfo(int,int,int,Time_t,int,int,int,int,int,int,int,boolean,long) is not applicable
-        (actual and formal argument lists differ in length)
-  Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-  8 errors
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): error MSB8066: Custom build for 'HelloWorldSubscriber.java' exited with code 1.
+﻿  Invoking "\bin\idl2jni and "\bin\tao_idl" and \bin\opendds_idl on HelloWorld.idl"
+  '\bin\idl2jni' is not recognized as an internal or external command,
+  operable program or batch file.
+  Invoking "\bin\idl2jni and "\bin\tao_idl" on HelloWorldTypeSupport.idl"
+  '\bin\idl2jni' is not recognized as an internal or external command,
+  operable program or batch file.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): error MSB8066: Custom build for 'HelloWorld.idl;HelloWorldTypeSupport.idl' exited with code 1.

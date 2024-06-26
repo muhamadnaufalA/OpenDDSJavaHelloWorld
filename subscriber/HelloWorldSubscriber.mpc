@@ -1,0 +1,6 @@
+project: dcps_tcp, dcps_udp, dcps_multicast, dcps_test_java {
+
+  after      += HelloWorld
+  javacflags += -classpath ../DDS_HelloWorld_types.jar
+
+}

@@ -5,7 +5,7 @@
  * See: http://www.opendds.org/license.html
  */
 
-package dds.OpenDDS.DCPS;
+package OpenDDS.DCPS;
 
 import android.content.Context;
 import android.content.ContextWrapper;

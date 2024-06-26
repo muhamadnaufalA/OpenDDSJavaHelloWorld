@@ -1,0 +1,21 @@
+﻿  Invoking "perl on TestUnion.java"
+  Invoking "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\bin\idl2jni and "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\bin\tao_idl" on UnionTest.idl"
+  tao-idli_lH922L.cpp
+  tao-idli_kTVECo.cpp
+  Invoking "perl on E.java"
+  Invoking "perl on EHelper.java"
+  Invoking "perl on EHolder.java"
+  Invoking "perl on NoDefault.java"
+  Invoking "perl on NoDefaultHelper.java"
+  Invoking "perl on NoDefaultHolder.java"
+  Invoking "perl on WithDefault.java"
+  Invoking "perl on WithDefaultHelper.java"
+  Invoking "perl on WithDefaultHolder.java"
+  TestUnion.cpp
+  UnionTestC.cpp
+  UnionTestJC.cpp
+  UnionTestJS.cpp
+  UnionTestS.cpp
+  Generating Code...
+     Creating library .\idl2jni_test_uniond.lib and object .\idl2jni_test_uniond.exp
+  idl2jni_test_union.vcxproj -> D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\tests\union\idl2jni_test_uniond.dll

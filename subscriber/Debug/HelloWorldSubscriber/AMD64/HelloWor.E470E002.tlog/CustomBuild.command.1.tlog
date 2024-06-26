@@ -1,0 +1,2 @@
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\SUBSCRIBER\HELLOWORLDSUBSCRIBER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -classpath /lib/i2jrt_corba.jar -classpath /lib/i2jrt.jar -classpath /lib/OpenDDS_DCPS.jar -classpath ../DDS_HelloWorld_types.jar "HelloWorldSubscriber.java""

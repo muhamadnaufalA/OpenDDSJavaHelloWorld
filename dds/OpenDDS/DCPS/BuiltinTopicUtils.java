@@ -5,7 +5,7 @@
  * See: http://www.opendds.org/license.html
  */
 
-package dds.OpenDDS.DCPS;
+package OpenDDS.DCPS;
 
 public class BuiltinTopicUtils {
     public static final String BUILT_IN_PARTICIPANT_TOPIC = "DCPSParticipant";

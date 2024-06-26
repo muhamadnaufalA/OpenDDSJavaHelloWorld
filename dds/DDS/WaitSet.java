@@ -5,7 +5,7 @@
  * See: http://www.opendds.org/license.html
  */
 
-package dds.DDS;
+package DDS;
 
 public class WaitSet extends _WaitSetInterfTAOPeer {
 

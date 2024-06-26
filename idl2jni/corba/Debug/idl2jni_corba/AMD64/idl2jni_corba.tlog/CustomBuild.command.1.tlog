@@ -1,0 +1,124 @@
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\ACTIVITY_COMPLETED.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\ACTIVITY_COMPLETED.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\ACTIVITY_REQUIRED.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\ACTIVITY_REQUIRED.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\BAD_CONTEXT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\BAD_CONTEXT.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\BAD_INV_ORDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\BAD_INV_ORDER.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\BAD_OPERATION.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\BAD_OPERATION.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\BAD_PARAM.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\BAD_PARAM.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\BAD_QOS.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\BAD_QOS.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\BAD_TYPECODE.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\BAD_TYPECODE.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\BOOLEANHOLDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\BooleanHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\BYTEHOLDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\ByteHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\CHARHOLDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\CharHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\CODESET_INCOMPATIBLE.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\CODESET_INCOMPATIBLE.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\COMM_FAILURE.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\COMM_FAILURE.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\COMPLETIONSTATUS.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\CompletionStatus.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\CONTEXT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\Context.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\CONTEXTLIST.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\ContextList.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\DATA_CONVERSION.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\DATA_CONVERSION.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\DOMAINMANAGER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\DomainManager.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\DOUBLEHOLDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\DoubleHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\EXCEPTIONLIST.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\ExceptionList.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\FLOATHOLDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\FloatHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\FREE_MEM.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\FREE_MEM.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\IMP_LIMIT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\IMP_LIMIT.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\INITIALIZE.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\INITIALIZE.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\INTERNAL.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\INTERNAL.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\INTF_REPOS.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\INTF_REPOS.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\INTHOLDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\IntHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\INV_FLAG.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\INV_FLAG.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\INV_IDENT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\INV_IDENT.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\INV_OBJREF.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\INV_OBJREF.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\INV_POLICY.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\INV_POLICY.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\INVALID_ACTIVITY.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\INVALID_ACTIVITY.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\INVALID_TRANSACTION.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\INVALID_TRANSACTION.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\LOCALOBJECT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\LocalObject.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\LONGHOLDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\LongHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\MARSHAL.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\MARSHAL.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\NAMEDVALUE.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\NamedValue.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\NO_IMPLEMENT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\NO_IMPLEMENT.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\NO_MEMORY.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\NO_MEMORY.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\NO_PERMISSION.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\NO_PERMISSION.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\NO_RESOURCES.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\NO_RESOURCES.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\NO_RESPONSE.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\NO_RESPONSE.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\NVLIST.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\NVList.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\OBJ_ADAPTER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\OBJ_ADAPTER.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\OBJECT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\Object.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\OBJECT_NOT_EXIST.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\OBJECT_NOT_EXIST.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\PERSIST_STORE.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\PERSIST_STORE.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\POLICY.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\Policy.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\REBIND.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\REBIND.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\REQUEST.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\Request.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\SETOVERRIDETYPE.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\SetOverrideType.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\SHORTHOLDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\ShortHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\STRINGHOLDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\StringHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\STRINGSEQHOLDER.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\StringSeqHolder.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\SYSTEMEXCEPTION.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\SystemException.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\TIMEOUT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\TIMEOUT.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\TRANSACTION_MODE.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\TRANSACTION_MODE.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\TRANSACTION_REQUIRED.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\TRANSACTION_REQUIRED.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\TRANSACTION_ROLLEDBACK.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\TRANSACTION_ROLLEDBACK.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\TRANSACTION_UNAVAILABLE.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\TRANSACTION_UNAVAILABLE.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\TRANSIENT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\TRANSIENT.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\CORBA\ORG\OMG\CORBA\UNKNOWN.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none "org\omg\CORBA\UNKNOWN.java""

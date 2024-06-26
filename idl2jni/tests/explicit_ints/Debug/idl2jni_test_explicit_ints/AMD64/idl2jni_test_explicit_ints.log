@@ -1,0 +1,46 @@
+﻿  Invoking "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\bin\idl2jni and "D:\Document\EDUKASI\MAGANG\LEN\OpenDDS-Java\OpenDDS-3.28.1\ACE_wrappers\bin\tao_idl" on explicit_ints.idl"
+  tao-idli_Yud5mi.cpp
+  tao-idli_FGf1Ts.cpp
+  Invoking "perl on explicit_ints\CarrHelper.java"
+  Invoking "perl on explicit_ints\CarrHolder.java"
+  Invoking "perl on explicit_ints\CseqHelper.java"
+  Invoking "perl on explicit_ints\CseqHolder.java"
+  Invoking "perl on explicit_ints\i16_max.java"
+  Invoking "perl on explicit_ints\i16_min.java"
+  Invoking "perl on explicit_ints\i32_max.java"
+  Invoking "perl on explicit_ints\i32_min.java"
+  Invoking "perl on explicit_ints\i64_max.java"
+  Invoking "perl on explicit_ints\i64_min.java"
+  Invoking "perl on explicit_ints\i8_max.java"
+  Invoking "perl on explicit_ints\i8_min.java"
+  Invoking "perl on explicit_ints\I8arrHelper.java"
+  Invoking "perl on explicit_ints\I8arrHolder.java"
+  Invoking "perl on explicit_ints\I8seqHelper.java"
+  Invoking "perl on explicit_ints\I8seqHolder.java"
+  Invoking "perl on explicit_ints\OarrHelper.java"
+  Invoking "perl on explicit_ints\OarrHolder.java"
+  Invoking "perl on explicit_ints\OseqHelper.java"
+  Invoking "perl on explicit_ints\OseqHolder.java"
+  Invoking "perl on explicit_ints\StructWithInts.java"
+  Invoking "perl on explicit_ints\StructWithIntsHelper.java"
+  Invoking "perl on explicit_ints\StructWithIntsHolder.java"
+  Invoking "perl on explicit_ints\u16_max.java"
+  Invoking "perl on explicit_ints\u32_max.java"
+  Invoking "perl on explicit_ints\u64_max.java"
+  Invoking "perl on explicit_ints\u8_max.java"
+  Invoking "perl on explicit_ints\U8arrHelper.java"
+  Invoking "perl on explicit_ints\U8arrHolder.java"
+  Invoking "perl on explicit_ints\U8seqHelper.java"
+  Invoking "perl on explicit_ints\U8seqHolder.java"
+  Invoking "perl on explicit_ints\UnionOverI8.java"
+  Invoking "perl on explicit_ints\UnionOverI8Helper.java"
+  Invoking "perl on explicit_ints\UnionOverI8Holder.java"
+  Invoking "perl on explicit_ints\UnionOverU8.java"
+  Invoking "perl on explicit_ints\UnionOverU8Helper.java"
+  Invoking "perl on explicit_ints\UnionOverU8Holder.java"
+  explicit_intsC.cpp
+  explicit_intsJC.cpp
+  explicit_intsJS.cpp
+  explicit_intsS.cpp
+  Generating Code...
+  idl2jni_test_explicit_ints.vcxproj -> D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\tests\explicit_ints\idl2jni_test_explicit_intsd.dll

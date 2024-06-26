@@ -1,0 +1,10 @@
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\RUNTIME\I2JRT\ORB.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -h . -classpath /lib/i2jrt_corba.jar "i2jrt\ORB.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\RUNTIME\I2JRT\TAOLOCALOBJECT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -h . -classpath /lib/i2jrt_corba.jar "i2jrt\TAOLocalObject.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\RUNTIME\I2JRT\TAOOBJECT.JAVA
+cmd /c "perl /java/build_scripts/javac_wrapper.pl -sourcepath . -d classes -classpath . -implicit:none -h . -classpath /lib/i2jrt_corba.jar "i2jrt\TAOObject.java""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\RUNTIME\CLASSES\I2JRT\ORB.CLASS
+cmd /c "echo  "classes\i2jrt\ORB.class""
+^D:\DOCUMENT\EDUKASI\MAGANG\LEN\OPENDDSJAVAHELLOWORLD\IDL2JNI\RUNTIME\CLASSES\I2JRT\TAOOBJECT.CLASS
+cmd /c "echo  "classes\i2jrt\TAOObject.class""

@@ -1,0 +1,23 @@
+﻿  be_global.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\be_global.h(11,10): error C1083: Cannot open include file: 'ace/SString.h': No such file or directory
+  be_init.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\be_global.h(11,10): error C1083: Cannot open include file: 'ace/SString.h': No such file or directory
+  be_produce.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\be_produce.cpp(67,10): error C1083: Cannot open include file: 'global_extern.h': No such file or directory
+  be_util.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\be_global.h(11,10): error C1083: Cannot open include file: 'ace/SString.h': No such file or directory
+  drv_args.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\drv_args.cpp(17,10): error C1083: Cannot open include file: 'TAO_IDL/driver/drv_args.cpp': No such file or directory
+  drv_preproc.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\drv_preproc.cpp(8,10): error C1083: Cannot open include file: '../../../dds/DCPS/DirentWrapper.h': No such file or directory
+  idl2jni.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\idl2jni.cpp(17,10): error C1083: Cannot open include file: 'TAO_IDL/tao_idl.cpp': No such file or directory
+  idl2jni_visitor.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\idl2jni_visitor.cpp(8,10): error C1083: Cannot open include file: 'ast_argument.h': No such file or directory
+  idl_mapping.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\idl_mapping.h(11,10): error C1083: Cannot open include file: 'utl_scoped_name.h': No such file or directory
+  im_java.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\idl_mapping.h(11,10): error C1083: Cannot open include file: 'utl_scoped_name.h': No such file or directory
+  im_jni.cpp
+D:\Document\EDUKASI\MAGANG\LEN\OpenDDSJavaHelloWorld\idl2jni\codegen\idl_mapping.h(11,10): error C1083: Cannot open include file: 'utl_scoped_name.h': No such file or directory
+  Generating Code...

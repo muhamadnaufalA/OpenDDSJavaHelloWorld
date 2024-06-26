@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Build Files">
+      <UniqueIdentifier>{A1909F1C-FECA-1BAD-B6C9-7EA75544F361}</UniqueIdentifier>
+      <Extensions>mpc;mpb;mwc</Extensions>
+    </Filter>
+    <Filter Include="Java Files">
+      <UniqueIdentifier>{0490FCE5-FECA-1BAD-B6C9-7EA75544F361}</UniqueIdentifier>
+      <Extensions>java</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HelloWorldSubscriber.mpc">
+      <Filter>Build Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="HelloWorldSubscriber.java">
+      <Filter>Java Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
